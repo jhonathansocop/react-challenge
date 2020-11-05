@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Switch, Route, NavLink } from "react-router-dom";
 
-import ProductForm from './components/ProductForm';
-import ProductList from './components/ProductList/ProductList';
+import UserForm from './components/UserForm';
+import UserList from './components/UserList/UserList';
 
 import './styles.scss';
 
@@ -15,21 +15,21 @@ function App() {
         <nav>
           <ul>
             <li>
-              <NavLink to="/" activeClassName="active" exact>Product List</NavLink>
+              <NavLink to="/" activeClassName="active" exact>User List</NavLink>
             </li>
             <li>
-              <NavLink to="/products" activeClassName="active">Products</NavLink>
+              <NavLink to="/users" activeClassName="active">Users</NavLink>
             </li>
           </ul>
         </nav>
       </aside>
       <main>
         <header className="page-title">
-          <h1>Products</h1>
+          <h1>Users</h1>
         </header>
         <Switch>
-          <Route exact path="/" component={ProductList}/>
-          <Route exact path="/products" component={ProductForm} />
+          <Route exact path="/" component={UserList}/>
+          <Route exact path="/users" component={UserForm} />
         </Switch>
       </main>
     </div>
