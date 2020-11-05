@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://res.cloudinary.com/hbrrdozyj/image/upload/v1558546804/cliengo819x195_zxegqs.png" width="250" title="Cliengo">
+</p>
+<h2 align="center">Challenge ReactJS</h2>
+
 ## Description
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 The project is set up with a basic architecture so you can focus into the most important features.
