@@ -13,7 +13,6 @@ describe("Render User", () => {
         name={data.name}
         email={data.email}
         phone={data.phone}
-        country={data.country}
       />
     )
   );
