@@ -38,4 +38,4 @@ Runs the app in the development mode.<br>
 
 ### `yarn test`
 
-Test the app in the development mode.<br>
+Test the app in the test mode.<br>
