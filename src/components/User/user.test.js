@@ -21,7 +21,7 @@ describe("Render User", () => {
     expect(screen.getByText(data.name)).toBeInTheDocument();
   });
   it("Render Email", () => {
-    expect(screen.getByText(data.email)).toBeInTheDocument();
+    expect(screen.getByText(data.mail)).toBeInTheDocument();
   });
   it("Render Phone", () => {
     expect(screen.getByText(data.phone)).toBeInTheDocument();

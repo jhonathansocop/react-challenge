@@ -18,7 +18,6 @@ const UserList = () => {
           <li>Name</li>
           <li>Email</li>
           <li>Phone</li>
-          <li>Country</li>
         </ul>
       </div>
       <ul className="user-list">
