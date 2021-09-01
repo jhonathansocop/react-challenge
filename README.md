@@ -25,6 +25,8 @@ Not required but desireable:
 - Any performance improvement, avoid multiple renders.
 - Implement a DU to handle **D**elete and **U**pdate users persisting them into **Local Storage**.
 - Design System improvements
+- Implement TS
+- Deploy the challenge (Heroku, AWS)
 
 ---
 
